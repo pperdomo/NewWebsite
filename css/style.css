@@ -1,0 +1,93 @@
+  h1.scrolling {
+        color: red;
+      }
+      h1:hover.scrolling {
+        color: #ffe2e6;
+      }
+
+  h3.scrolling {
+            color: red;
+        }
+
+        nav {
+              position: fixed;
+              right: 0;
+              left: 0;
+              top: 0;
+              /*padding: 10px;*/
+              padding-bottom: 0;
+              width: 100%;
+              transition: .7s;
+              background-color: red;
+            }
+            nav.scrolling {
+              background-color: #414452;
+            }
+            .navigation-desktop {
+              display: inline-block;
+              width: 100%;
+              vertical-align: middle;
+            }
+            ul {
+              list-style-type: none;
+              margin-top: -50px;
+              /*padding: 1vw 5vw;*/
+              overflow: hidden;
+              width: 40%;
+              float: right;
+            }
+            li {
+
+            }
+            li a {
+              display: block;
+              color: black;
+              text-align: center;
+              /*padding: 1em 1.2em;*/
+              text-decoration: none;
+              font-size: .75vw;
+              text-transform: uppercase;
+              letter-spacing: .3em;
+              font-weight: 200;
+              font-style: normal;
+            }
+            /*li a:hover {
+              font-family: 'LemonMilk', Fallback, sans-serif;
+              color: #74ccd1;
+              transition: .7s;
+            }
+            li a.scrolling {
+              color: white;
+            }*/
+            /*li a:hover.scrolling {
+              color: #74ccd1;
+            }*/
+
+      .mobilenav {
+        display: none;
+      }
+
+      .quote {
+        margin-top: 200px;
+      }
+
+      .logo {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: -1%;
+        line-height: 10%;
+      }
+
+      .latestworktitle {
+        margin-left: 5%;
+      }
+      .quote {
+        margin-left: 5%;
+        margin-top: 15%;
+      }
+
+      .leftfooter {
+        margin-left: 5%;
+      }
